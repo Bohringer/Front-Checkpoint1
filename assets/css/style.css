@@ -16,14 +16,14 @@ header {
 
 #logo-estado {
     position: absolute;
-    width: 340px;
-    height: 140px;
+    width: 40%;
+    height: 20¢;
     left: 122px;
     top: 36px;
 }
 
 .menu button {
-    border-radius:36px;
+    border-radius:35px;
     border: 1px solid #000000;
     background: #C4C4C4;
     width: 190px;
@@ -35,9 +35,46 @@ header {
     color: #000;
     margin-top: 75px;
 }
-
+.Bandeira-do-Maranhao{
+    width: 40%;
+    height: 40%;
+    border-radius: 10%;
+    position: relative;
+}
 header .menu {
     margin-left: 40%;
 }
+footer {
+    height: 100%;
+    background:url(../img/fotofooter.png);
+    padding: 16px 28px;
+    color:black;
+    margin-top: auto;
+  }
+.rodape {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    align-content: center;
+}
+.texto-footer{
 
-
+}
+.card-linkedin {
+    width: 374px;
+    height: 117px;
+}
+.icon-linkedin{
+    width: 30%;
+    height: 80%;
+}
+.card-github {
+    width: 374px;
+    height: 117px;
+}
+.icon-Git{
+    width:40%;
+    height: 60%;
+}
