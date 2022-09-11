@@ -1,29 +1,33 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 header {
 
-    background: url(../img/Background.png) no-repeat center center;
-    background-size: cover;
+    background: #220000;
     text-align: center;
-    position: relative;
+    position: sticky;
     width: 100%;
-    height: 213px;
+    height: 110px;
+    z-index: 1;
+    top: 0px;
+    padding: 5px;
+    display: flex;
 
 }
 
 #logo-estado {
     position: absolute;
-    width: 40%;
+    width: 20%;
     height: 20¢;
     left: 122px;
-    top: 36px;
+    top: 12px;
 }
 
 .menu button {
-    border-radius: 35px;
+    border-radius: 10px;
     border: 1px solid #000000;
     background: #C4C4C4;
     width: 190px;
@@ -33,14 +37,14 @@ header {
     padding: 15px;
     font-weight: 600;
     color: #000;
-    margin-top: 75px;
+    margin-top: 25px;
 }
 
 .Bandeira-do-Maranhao {
     width: 40%;
     height: 40%;
     border-radius: 10%;
-    position: relative;
+
 }
 
 header .menu {
@@ -50,9 +54,66 @@ header .menu {
 .img-body {
     width: 100%;
     height: 532px;
-    position: absolute;
 
 }
+
+
+.card-container {
+    height: 600px;
+    width: 900;
+    display: flex;
+    margin-left: 300px;
+    margin-top: 130px;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+ h2 {
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    margin-left: 320px;
+    margin-top: 80px;
+    position: absolute; 
+    color: #000000;
+    
+}
+
+.card {
+    
+    width: 280px;
+    height: 450px;
+    background: #C4C4C4;
+    border-radius: 31px;
+    display: flex;
+    position: relative;
+    margin: 20px;
+    
+
+    
+    
+}
+
+.card p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    font-style: normal;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+
+}
+
 
 footer {
     height: 100%;
@@ -61,6 +122,7 @@ footer {
     color: black;
     margin-top: 800px;
     background-size: cover;
+
 }
 
 .rodape {
@@ -70,9 +132,10 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
+
 }
 
-.texto-footer {}
+
 
 .card-linkedin {
     width: 374px;
