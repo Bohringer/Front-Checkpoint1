@@ -4,7 +4,7 @@
 }
 
 header {
-   
+
     background: url(../img/Background.png) no-repeat center center;
     background-size: cover;
     text-align: center;
@@ -23,7 +23,7 @@ header {
 }
 
 .menu button {
-    border-radius:35px;
+    border-radius: 35px;
     border: 1px solid #000000;
     background: #C4C4C4;
     width: 190px;
@@ -35,53 +35,61 @@ header {
     color: #000;
     margin-top: 75px;
 }
-.Bandeira-do-Maranhao{
+
+.Bandeira-do-Maranhao {
     width: 40%;
     height: 40%;
     border-radius: 10%;
     position: relative;
 }
+
 header .menu {
     margin-left: 40%;
 }
+
 .img-body {
     width: 100%;
     height: 532px;
     position: absolute;
-    
+
 }
 
 footer {
     height: 100%;
-    background:url(../img/fotofooter.png);
+    background: url(../img/fotofooter.png);
     padding: 16px 28px;
-    color:black;
+    color: black;
     margin-top: 800px;
-  }
+    background-size: cover;
+}
+
 .rodape {
     width: auto;
     height: auto;
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
 }
-.texto-footer{
 
-}
+.texto-footer {}
+
 .card-linkedin {
     width: 374px;
     height: 117px;
 }
-.icon-linkedin{
+
+.icon-linkedin {
     width: 30%;
     height: 80%;
 }
+
 .card-github {
     width: 374px;
     height: 117px;
 }
-.icon-Git{
-    width:40%;
+
+.icon-Git {
+    width: 40%;
     height: 60%;
 }
