@@ -59,6 +59,11 @@ header .menu {
 
 }
 
+body {
+    background-image: url(../assets/img/Chapada-das-Mesas.png);
+    background-size: cover;
+}
+
 
 .card-container {
     height: 500px;
