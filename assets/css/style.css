@@ -8,7 +8,7 @@ header {
 
     background: #220000;
     text-align: center;
-    position: sticky;
+    position: absolute;
     width: 100%;
     height: 110px;
     z-index: 1;
@@ -51,6 +51,8 @@ header .menu {
     margin-left: 40%;
 }
 
+
+
 .img-body {
     width: 100%;
     height: 532px;
@@ -59,14 +61,12 @@ header .menu {
 
 
 .card-container {
-    height: 600px;
-    width: 900;
+    height: 500px;
+    width: 100%;
     display: flex;
-    margin-left: 200px;
     margin-top: 130px;
-    position: absolute;
-    justify-content: space-around;
     align-items: center;
+    justify-content: center;
 
 
 }
@@ -93,6 +93,7 @@ h2 {
     display: flex;
     position: relative;
     margin: 20px;
+    align-items: center;
 
 
 
@@ -128,45 +129,73 @@ h2 {
     transform: rotateZ(-360deg) scale(1.5);
 }
 
+.video-container {
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+.video-container iframe {
+    border-radius: 31px;
+    background: #C4C4C4;
+    
+
+}
 
 footer {
-    height: 100%;
-    background: url(../img/fotofooter.png);
-    padding: 16px 28px;
-    color: black;
-    margin-top: 800px;
+    background-image: url(/assets/img/fotofooter.png);
     background-size: cover;
-
+    width: 100%;
+    height: 314px;
+    position: absolute;
+    top: 2000px;
 }
 
-.rodape {
-    width: auto;
-    height: auto;
+.links {
+    align-items: center;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: center;
-
+    justify-content: center;
+    
+    
 }
 
+.linkedin {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    margin: 100px;
+}
 
-
-.card-linkedin {
-    width: 374px;
-    height: 117px;
+.github {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    margin: 100px;
 }
 
 .icon-linkedin {
-    width: 30%;
+    width: 100px;
     height: 80%;
+    border-radius: 50%;
 }
 
-.card-github {
-    width: 374px;
-    height: 117px;
-}
 
 .icon-Git {
-    width: 40%;
-    height: 60%;
+    width: 150px;
+    height: 80%;
+    border-radius: 50%;
 }
+
+footer p a {
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    line-height: 25px;
+}
+
